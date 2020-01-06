@@ -8,7 +8,7 @@ public class choosemart {
 	
 	@GetMapping("/home")
 	public String home(){
-		return "home";
+		return "Home";
 	}
 	@GetMapping("/login")
 	public String login(){
