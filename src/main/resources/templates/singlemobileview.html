@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>choosmart</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobiles.css">
+    <link rel="stylesheet" href="css/singlemobileview.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="row">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logo6.png " class="img-responsive" alt="logo " style="position:absolute;left:40px;">
+                <form action="" class="form-inline form-align">
+                    <div class="form-group has-feedback">
+                        <input type="text " placeholder="search for products" class="text-line">
+                        <a href="#"><i class="glyphicon glyphicon-search form-control-feedback searchBtn"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="navbar-collapse collpase in">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Mobiles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Exclusive Offers</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <!-- navbar -->
+
+    <div class="row" style="background-color: rgb(208, 218, 218);padding-top: 40px;">
+        <div class="row productContainer">
+            <div class="container">
+                <div class="col-md-6 ">
+                    <div class="row imageDiv" id="imgOne">
+                        <img src="images/acc4.jpg" class="img-responsive" alt="">
+                        <center>
+                            <a class=" " id="imgPrev1" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+
+                            <a class=" " id="imgNext1" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-right "></span>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="row imageDiv" id="imgTwo" style="display: none;">
+                        <img src="images/acc3.jpg" class="img-responsive" alt="">
+                        <center>
+                            <a class=" " id="imgPrev2" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class=" " id="imgNext2" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-right "></span>
+                            </a>
+                        </center>
+                    </div>
+                    <div class="row imageDiv" id="imgThree" style="display: none;">
+                        <img src="images/acc2.jpg" class="img-responsive" alt="">
+                        <center>
+                            <a class=" " id="imgPrev3" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class=" " id="imgNext3" href="#imageDiv">
+                                <span class="glyphicon glyphicon-chevron-right "></span>
+                            </a>
+                        </center>
+                    </div>
+
+
+                </div>
+                <div class="col-md-5 descBox">
+                    <h2>Brand Name</h2>
+                    <p>Brand name, product, m/y,color,RAM, sim</p>
+                    <h2>Price</h2>
+                    <p>Select Color</p>
+                    <button type="button" class="clrBtn"></button>
+                    <br>
+                    <button type="button" class="btn btnBuy">Buy Now</button>
+                    <button type="button" class="btn btnCart">Add to Cart</button>
+                    <hr>
+                    <p>Delivery</p>
+
+                    <input type="text" placeholder="pincode here" class="text-line" style="border-bottom: 1px solid black;color:black;">
+                    <a href="#">check</a>
+                    <br>
+                    <br>
+                    <h6>Standard Delivery</h6>
+                    <p>Delivered in 3-4 days</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row" style="margin-left: 4%;margin-right: 8%;">
+
+                    <div class="col-md-12">
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyOne" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                            Display<span class="glyphicon glyphicon-menu-down" style="float: right;"></span> 
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyOne" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <h6>Screen Size</h6>
+                                        <h6>Display</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyTwo" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                            Dimensions <span class="glyphicon glyphicon-menu-up" style="float: right;" ></span> 
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <h6>Weight</h6>
+                                        <h6>Width</h6>
+                                        <h6>Height</h6>
+                                        <h6>Depth</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyThree" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                            Memory and Storage<span class="glyphicon glyphicon-menu-up" style="float: right;"></span> 
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <h6>Internal Storage</h6>
+                                        <h6>RAM</h6>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyFour" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                            Camera<span class="glyphicon glyphicon-menu-up" style="float: right;"></span> 
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyFour" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <h6>Back Camera</h6>
+                                        <h6>Front Camera</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a href="#panelBodyFive" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                            Features  <span class="glyphicon glyphicon-menu-up" style="float: right;"></span> 
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="panelBodyFive" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ul>
+                                            <h6>Sim Type:</h6>
+                                            <h6>Sim Size</h6>
+                                            <h6>Processor</h6>
+                                            <h6>OS</h6>
+                                            <h6>Color</h6>
+                                            <h6>Procesor</h6>
+                                            <h6>Other Boxed Items</h6>
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footers -->
+    <div class="row footer ">
+        <div class="col-md-12 ">
+            <center>
+                <p><span class="glyphicon glyphicon-copyright-mark "></span>2019 Choosmart | All Rights Reserved</p>
+            </center>
+        </div>
+    </div>
+    <!-- footers -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="bootstrap/js/bootstrap.min.js "></script>
+</body>
+<script>
+    $(document).ready(function() {
+        $('#imgPrev1').click(function() {
+            $('#imgOne').hide();
+            $('#imgThree').show();
+        });
+        $('#imgNext1').click(function() {
+            $('#imgOne').hide();
+            $('#imgTwo').show();
+        });
+        $('#imgPrev2').click(function() {
+            $('#imgTwo').hide();
+            $('#imgOne').show();
+        });
+        $('#imgNext2').click(function() {
+            $('#imgTwo').hide();
+            $('#imgThree').show();
+        });
+        $('#imgPrev3').click(function() {
+            $('#imgThree').hide();
+            $('#imgTwo').show();
+        });
+        $('#imgNext3').click(function() {
+            $('#imgThree').hide();
+            $('#imgOne').show();
+        });
+        $('.collapse').on('shown.bs.collapse', function() {
+            $(this).parent().find('.glyphicon-menu-down').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
+        }).on('hidden.bs.collapse', function() {
+            $(this).parent().find('.glyphicon-menu-up').removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+        });
+    });
+</script>
+
+</html>

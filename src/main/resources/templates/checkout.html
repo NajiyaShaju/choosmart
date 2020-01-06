@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>choosmart</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobiles.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="row">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logo6.png " class="img-responsive" alt="logo " style="position:absolute;left:40px;">
+                <form action="" class="form-inline form-align">
+                    <div class="form-group has-feedback">
+                        <input type="text " placeholder="search for products" class="text-line">
+                        <a href="#"><i class="glyphicon glyphicon-search form-control-feedback searchBtn"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="navbar-collapse collpase in">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Mobiles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Exclusive Offers</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <!-- navbar -->
+
+    <div class="container-fluid" style="padding-top:40px;">
+        <div class="row" style="background-color: rgb(231, 238, 238);">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-sm-10 col-xs-10 " style="margin-bottom: 5%;">
+                    <div class="row productCart" id="confirmAddress" style="padding:2% 5% 5% 5%;">
+                        <h3 class="text-center">Confirm Address</h3>
+
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="#newAddress" id="btnAddress" style="float: right;font-weight: bold;">Add New Address</a>
+                                <p>Najiya</p>
+                                <p>ksahasj</p>
+                                <p>ajdckaj</p>
+                            </div>
+                        </div>
+                        <a href="#" id="btnContinue" class="btn checkout" style="float: right;">Continue</a>
+                    </div>
+
+                    <div class="row productCart" id="deliveryAddress" style="padding:2% 5% 5% 5%;display: none;">
+                        <h3 class="text-center">Delivery Address</h3>
+
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <a href="" id="btnChange" style="float: right;font-weight: bold;">change</a>
+                                <p>Najiya</p>
+                                <p>ksahasj</p>
+                                <p>ajdckaj</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row productCart" id="payment" style="padding:2% 5% 5% 5%;display:none;">
+                        <h3 class="text-center">Payment</h3>
+                        <div class="row">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#panelBodyOne" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                                        Credit Card<span class="glyphicon glyphicon-menu-down" style="float: right;"></span> 
+                                                    </a>
+                                        </h4>
+                                    </div>
+                                    <div id="panelBodyOne" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#panelBodyTwo" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                                        Debit Card <span class="glyphicon glyphicon-menu-up" style="float: right;" ></span> 
+                                                    </a>
+                                        </h4>
+                                    </div>
+                                    <div id="panelBodyTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#panelBodyThree" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                                        Net Banking<span class="glyphicon glyphicon-menu-up" style="float: right;"></span> 
+                                                    </a>
+                                        </h4>
+                                    </div>
+                                    <div id="panelBodyThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a href="#panelBodyFour" data-toggle="collapse" data-parent="accordion" style="text-decoration: none;">
+                                                        Cash On Delivery<span class="glyphicon glyphicon-menu-up" style="float: right;"></span> 
+                                                    </a>
+                                        </h4>
+                                    </div>
+                                    <div id="panelBodyFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row productCart" id="newAddress" style="display: none;">
+                        <h3 class="text-center">Enter Address</h3>
+                        <form action="" class="formAddress">
+                            <div class="form-group">
+                                <div class="col-md-5 inputSpace">
+                                    <div class="row">
+                                        <div class="col-md-6 ">
+                                            <input type="text" placeholder="First Name" class="form-control">
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <input type="text" placeholder="Last Name" class="form-control">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-5 inputSpace">
+                                    <input type="text" placeholder="City/District" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-5 inputSpace">
+                                    <input type="text" placeholder="Pincode" class="form-control">
+                                </div>
+                                <div class="col-md-5 inputSpace">
+                                    <input type="text" placeholder="State" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-5 inputSpace">
+                                    <textarea name="" id="" cols="30" rows="4" placeholder="Address" class="form-control"></textarea>
+                                </div>
+                                <div class="col-md-5 inputSpace">
+                                    <input type="text" placeholder="Contact" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-5 inputSpace">
+                                    <select name="landmark" id="landmark" class="form-control">
+                                        <option value="">Landmark</option>
+                                        <option value="">aagdad</option>
+                                        <option value="">aagdad</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12 inputSpace">
+                                    <label for=""><input type="radio" id="rdoAdd" name="rdoAdd">Home Address</label>&nbsp;&nbsp;&nbsp;
+                                    <label for=""><input type="radio" id="rdoAdd" name="rdoAdd">Office Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <label for=""><input type="checkbox" id="" name="defaultAdd">Make this default Address</label>
+                                </div>
+                            </div>
+                            <input type="button" class="btn checkout" value="Save and Proceed" id="btnSaveContinue">
+                            <input type="button" class="btn cancel" value="Cancel" id="btnCancel">
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10">
+                    <div class="row cartTotal">
+                        <p>Cart Total</p>
+                        <p>Shipping Charge</p>
+                        <p>Cart Sub Total</p>
+                        <p>Discounts</p>
+                        <hr>
+                        <span style="font-size: 150%;">Total</span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- footers -->
+    <div class="row footer">
+        <div class="col-md-12 ">
+            <center>
+                <p><span class="glyphicon glyphicon-copyright-mark "></span>2019 Choosmart | All Rights Reserved</p>
+            </center>
+        </div>
+    </div>
+    <!-- footers -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="bootstrap/js/bootstrap.min.js "></script>
+</body>
+<script>
+    $(document).ready(function() {
+        $("#btnAddress").click(function() {
+            $('#newAddress').show();
+            $('#confirmAddress').hide();
+            $('#deliveryAddress').hide();
+            $('#payment').hide();
+        });
+        $("#btnCancel").click(function() {
+            $('#confirmAddress').show();
+            $('#newAddress').hide();
+            $('#deliveryAddress').hide();
+            $('#payment').hide();
+        });
+        $("#btnSaveContinue").click(function() {
+            $('#newAddress').hide();
+            $('#confirmAddress').show();
+            $('#deliveryAddress').hide();
+            $('#payment').hide();
+
+        })
+        $("#btnChange").click(function() {
+            $('#confirmAddress').show();
+            $('#deliveryAddress').hide();
+            $('#payment').hide();
+            $('#newAddress').hide();
+        });
+        $("#btnContinue").click(function() {
+            $('#confirmAddress').hide();
+            $('#newAddress').hide();
+            $('#deliveryAddress').show();
+            $('#payment').show();
+        });
+        $('.collapse').on('shown.bs.collapse', function() {
+            $(this).parent().find('.glyphicon-menu-down').removeClass('glyphicon-menu-down').addClass('glyphicon-menu-up');
+        }).on('hidden.bs.collapse', function() {
+            $(this).parent().find('.glyphicon-menu-up').removeClass('glyphicon-menu-up').addClass('glyphicon-menu-down');
+        });
+    });
+</script>
+
+</html>

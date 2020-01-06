@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>choosmart</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mobiles.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="row">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="images/logo6.png " class="img-responsive" alt="logo " style="position:absolute;left:40px;">
+                <form action="" class="form-inline form-align">
+                    <div class="form-group has-feedback">
+                        <input type="text " placeholder="search for products" class="text-line">
+                        <a href="#"><i class="glyphicon glyphicon-search form-control-feedback searchBtn"></i></a>
+                    </div>
+                </form>
+            </div>
+            <div class="navbar-collapse collpase in">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Mobiles</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Exclusive Offers</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+    <!-- navbar -->
+
+    <div class="container-fluid" style="padding-top:40px;">
+        <div class="row" style="background-color: rgb(231, 238, 238);">
+            <h1 class="text-center">My Cart</h1>
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-sm-10 col-xs-10 ">
+                    <div class="row productCart">
+                        <div class="col-md-3 col-lg-3 col-sm-4 col-xs-4 imgProduct">
+                            <img src="images/bg8.jpg" class="img-responsive" alt="" style="margin:5% 5% 5% 0;height:150px;width: 200px;">
+                        </div>
+                        <div class="col-md-7  col-lg-7 col-sm-6 col-xs-6 descProduct">
+                            <span>Brand name </span>
+                            <span>product name </span>
+                            <span>Color name </span>
+                            <span>RAM </span>
+                            <span>Internal Storage</span>
+                            <span>Sim Type</span>
+                            <p>Price</p>
+                            Quantity
+                            <select name="" id="">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+
+                            </select>
+                            <hr>
+                            <button class="btn btn-danger btn-sm" style="float: right;"> Remove <span class="glyphicon glyphicon-remove"></span></button>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:2%; margin-right:6%;float: right;">
+                        <input type="button" value="Continue Shopping" class="btn btnContinue">
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-sm-10 col-xs-10">
+                    <div class="row cartTotal">
+                        <p>Cart Total</p>
+                        <p>Shipping Charge</p>
+                        <p>Cart Sub Total</p>
+                        <p>Discounts</p>
+                        <hr>
+                        <span style="font-size: 150%;">Total</span>
+                        <span></span>
+                        <button class="btn checkout" style="margin-bottom: 2%;float: right;">checkout</button>
+                    </div>
+                    <div class="row cartTotal" style="margin-top:10%; margin-bottom: 10%;">
+                        <span>shipping Address</span>
+                        <span style="float: right;">adgcc</span>
+                        <br>
+                        <a href="#" style="float: right;color:rgb(218, 153, 14);font-weight: bolder;">change</a>
+                        <br>
+                        <br>
+                        <span>pincode</span>
+                        <span style="float: right;">679322</span>
+                        <br>
+                        <a href="#" style="float: right;color:rgb(218, 153, 14);font-weight: bolder;">change</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footers -->
+    <div class="row footer">
+        <div class="col-md-12 ">
+            <center>
+                <p><span class="glyphicon glyphicon-copyright-mark "></span>2019 Choosmart | All Rights Reserved</p>
+            </center>
+        </div>
+    </div>
+    <!-- footers -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="bootstrap/js/bootstrap.min.js "></script>
+</body>
+
+</html>

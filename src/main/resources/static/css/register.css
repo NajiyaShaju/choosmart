@@ -1,0 +1,23 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(122, 122, 235, 0.11);
+    background-image: linear-gradient(to bottom, rgb(3, 13, 68), grey);
+}
+
+.registerBox {
+    background-color: rgba(236, 243, 235, 0.685);
+    color: blue;
+    padding: 5%;
+    border-radius: 20px;
+    margin-top: 9%;
+}
+
+.btnRegister {
+    background-color: rgb(14, 14, 15);
+    color: white;
+    width: 100%;
+    font-weight: bolder;
+}

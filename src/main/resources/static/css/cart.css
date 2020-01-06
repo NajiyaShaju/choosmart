@@ -1,0 +1,71 @@
+.productCart {
+    background-color: white;
+    margin: 3% 0 0 7%;
+    border-radius: 15px;
+}
+
+.imgProduct {
+    margin: 5%;
+    background-color: rgb(231, 238, 238);
+}
+
+.descProduct {
+    margin: 5% 0 5% 0;
+}
+
+.cartTotal {
+    margin-top: 9%;
+    margin-left: 1%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+.checkout {
+    background-color: rgb(80, 180, 80);
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    font-weight: bolder;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+.checkout:hover {
+    background-color: transparent;
+    border: 1px solid rgb(80, 180, 80);
+    color: black;
+}
+
+.btnContinue {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 73, 99);
+    color: black;
+}
+
+.btnContinue:hover {
+    background-color: rgb(230, 73, 99);
+    border: 1px solid rgb(230, 73, 99);
+    color: white;
+}
+
+.inputSpace {
+    margin: 1%;
+}
+
+.formAddress {
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.cancel {
+    background-color: rgb(243, 73, 73);
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 5%;
+}

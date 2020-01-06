@@ -1,0 +1,104 @@
+.header {
+    background-color: rgb(68, 63, 63);
+    height: 80px;
+}
+
+.sign {
+    color: rgb(26, 199, 41);
+    font-family: 12px Tahoma;
+}
+
+.sign:hover {
+    color: red;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+li a {
+    /* color: blue; */
+    font-weight: bolder;
+}
+
+.btnLatest,
+.btnUpcoming,
+.btnIphone {
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: green;
+    width: 150px;
+    height: 40px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+.btnLatest {
+    margin-left: 80px;
+    ;
+}
+
+.brands {
+    background-color: rgb(226, 221, 221);
+}
+
+.circleBrand {
+    background-color: white;
+    border-radius: 100px;
+    border: 3px solid rgb(219, 221, 216);
+    box-shadow: 5px 5px 5px 5px rgb(170, 165, 165);
+    width: 150px;
+    height: 150px;
+}
+
+.priceDiv {
+    background-color: rgb(226, 221, 221);
+}
+
+.circlePrice {
+    border-radius: 50px;
+    border: 1px solid blue;
+    width: 200px;
+    height: 30px;
+    color: rgb(21, 56, 13);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.circlePrice:hover {
+    background-color: black;
+    color: white;
+}
+
+.offers {
+    background-color: rgb(226, 221, 221);
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    color: rgb(211, 198, 198);
+}
+
+.space {
+    height: 50px;
+    background-color: rgb(226, 221, 221);
+}
+
+.offerMobile {
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(61, 38, 116);
+}
+
+.styleHr {
+    /* border: 1px solid rgb(61, 38, 116); */
+    border: 1px solid grey;
+}

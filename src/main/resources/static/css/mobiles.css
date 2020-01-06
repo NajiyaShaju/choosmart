@@ -1,0 +1,51 @@
+.filter {
+    margin: 0.5% 0.5% 0 8%;
+}
+
+.mobileBox {
+    margin: 1% 1% 1% 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.mobileContainer {
+    margin-top: 10px;
+    background-color: white;
+}
+
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+}
+
+.form-align {
+    position: absolute;
+    right: 100px;
+    top: 10px;
+}
+
+.searchBtn {
+    color: white;
+    margin-top: -7px;
+}
+
+#slctSort {
+    width: 150px;
+    height: 30px;
+}
+
+li a {
+    color: rgb(99, 95, 95);
+}
+
+.rightDiv {
+    /* background-color: white; */
+    margin-top: 0.5%
+}
