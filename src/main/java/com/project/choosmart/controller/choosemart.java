@@ -8,7 +8,11 @@ public class choosemart {
 	
 	@GetMapping("/home")
 	public String home(){
+<<<<<<< HEAD
 		return "home";
+=======
+		return "Home";
+>>>>>>> 63dc888bde9613365af3e97d7fac6928543688ed
 	}
 	@GetMapping("/login")
 	public String login(){
@@ -22,6 +26,7 @@ public class choosemart {
 	public String products(){
 		return "mobiles";
 	}
+<<<<<<< HEAD
 	@GetMapping("/product_accessory")
 	public String accessories(){
 		return "accessories";
@@ -38,5 +43,7 @@ public class choosemart {
 	public String singlemobileview(){
 		return "singlemobileview";
 	}
+=======
+>>>>>>> 63dc888bde9613365af3e97d7fac6928543688ed
 
 }
